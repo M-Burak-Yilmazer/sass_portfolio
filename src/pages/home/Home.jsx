@@ -9,7 +9,7 @@ const Home = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["9th President of Turkey", "Dad of Turkey"];
+  const toRotate = ["9th President of Turkey", "Father of Turkey"];
   const period = 2000;
 
   useEffect(() => {
@@ -63,7 +63,7 @@ const Home = () => {
                   style={{ color: "#ff652f" }}
                   className="txt-rotate "
                   dataPeriod="1000"
-                  data-rotate='[ "President", "Dad of Turkey",]'
+                  data-rotate='[ "President", "Father of Turkey",]'
                 >
                   <span className="wrap">{text}</span>
                 </span>
