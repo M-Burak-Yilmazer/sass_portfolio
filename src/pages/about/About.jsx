@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div class="about-bgImg-container">
       <div className="about__bio-image">
-        <h2>BIO</h2>
+        <h2>BIOGRAPHY</h2>
         <p>
           Sami Süleyman Gündoğdu Demirel (1 November 1924 – 17 June 2015 ) was a
           Turkish politician, engineer, and statesman who served as the 9th
